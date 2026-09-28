@@ -1,7 +1,7 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        unordered_map<int,int>mpp;
+        unordered_map<int,int>mpp; //this is optimal solution with time complexity
         mpp[0]=1;
         int presum=0;
         int count=0;
